@@ -12,7 +12,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const DBUSER=encodeURIComponent(process.envDBUSER)
+const DBUSER=encodeURIComponent(process.env.DBUSER)
 const DBPASS=encodeURIComponent(process.env.DBPASS)
 const MONGO_URI='mongodb+srv://${DBUSER}:${DBPASS}@cluster0.jeddjky.mongodb.net/gcet?retryWrites=true&w=majority&appName=Cluster0'
 
