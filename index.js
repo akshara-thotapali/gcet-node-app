@@ -14,7 +14,7 @@ app.use(express.json());
 
 const DBUSER = encodeURIComponent(process.env.DBUSER)
 const DBPASS = encodeURIComponent(process.env.DBPASS)
-const MONGO_URI =`mongodb+srv://${DBUSER}:${DBPASS}@cluster0.qjxhv.mongodb.net/gcet?retryWrites=true&w=majority&appName=Cluste`
+const MONGO_URI =`mongodb+srv://${DBUSER}:${DBPASS}@cluster0.qjxhv.mongodb.net/gcet?retryWrites=true&w=majority&appName=Cluste0`
 
 // const MONGO_URI = process.env.MONGO_URI
 //testing
